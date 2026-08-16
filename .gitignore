@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+
+# Environment variables / API keys
+.env
+.env.*
+
+# Uploaded documents
+uploads/
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
