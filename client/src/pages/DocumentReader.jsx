@@ -48,8 +48,7 @@ function DocumentReader() {
   try {
     console.log("Uploading:", file.name);
 
-    const apiUrl = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
-
+    const apiUrl = "https://barn-aerospace-emphasis-orchestra.trycloudflare.com";
     const response = await fetch(`${apiUrl}/upload`, {
       method: "POST",
       body: formData,
