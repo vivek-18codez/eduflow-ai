@@ -4,7 +4,7 @@ import {
   teachers as defaultTeachers,
   students as defaultStudents,
 } from "../data/schoolData";
-import "./Dashboard.css";
+import "./dashboard.css";
 
 function Dashboard() {
   const navigate = useNavigate();
